@@ -45,3 +45,42 @@ body{
 text-decoration: none;
 
 }
+.header__container__col{
+    display: inline-block;
+    
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.header__container__col__c1{
+    width: 400px;
+   
+    background-color: rgb(240, 214, 166);
+    text-align: center;
+    box-sizing: content-box;
+    padding: 20px;
+}
+.header__container__col__c1__p1{
+    font-size: 30px;
+  margin-bottom:20px ;
+}
+.header__container__col__c1__p2{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.header__container__col__c1__btn{
+   color: black;
+   position: relative;
+  background-color: orange;
+  border: 1px solid orange;
+  width: 100px;
+  height: 50px;
+  top: 280px;
+}
+
+.header__container__col__c1>img{
+    width: 700px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: -200px;
+    
+}
