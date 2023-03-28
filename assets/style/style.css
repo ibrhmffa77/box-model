@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+background-attachment: fixed;
+}
+body{
+    height: 1000px;
+}
+.header__container{
+    width: 100%;
+    height: 100%;
+   
+}
+.header__container__title{
+    text-align: center;
+}
+.header__container__title__h3{
+    color: orange;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.header__container__title__h1{
+    color: white;
+    font-size: 35px;
+}
+.header__container__nav__ul{
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.518);
+    margin-top: 70px;
+}
+.header__container__nav__ul>li{
+    display: inline-block;
+   padding: 20px 20px  ;
+  
+   
+}
+.header__container__nav__ul>li>a{
+    color: white;
+text-decoration: none;
+
+}
